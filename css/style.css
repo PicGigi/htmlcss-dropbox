@@ -7,6 +7,7 @@
 
 .top-bar{
     background-color: white;
+    z-index: 100;
     width: 100%;
     height: 4.5em;
     height: fit-content;
@@ -90,3 +91,130 @@ header h1{
     margin-bottom: 1em;
     flex-basis: 30%;
 }
+
+.main-1{
+    width: 60%;
+    margin: 10em auto 3em auto;   
+}
+
+.main-1 h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.main-1 span{
+    margin-right: 3em;
+    margin-bottom: 1em;
+}
+
+.columns{
+    width: 60%;
+    margin: 0 auto 3em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.column{
+    width: 30%;
+    border: 1px solid black;
+}
+.column-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 3em;
+}
+
+.column-text{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.column h3{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.price{
+    font-weight: bold;
+    display: block;
+    padding-bottom: .7em;
+}
+.under-price{
+    padding-bottom: 3em;
+    display: block;
+}
+
+.column i{
+    font-size: 1.1em;
+    padding-right: .5em;
+}
+.offers{
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.try{
+    width: 100%;
+    padding: 1em auto;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.buy{
+    margin-bottom: 2em;
+}
+
+.column hr{
+    width: 20%;
+    margin-bottom: 2em;
+}
+
+.highpoints{
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.highpoint i{
+    color: rgb(0,97,255);
+}
+
+.wide{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+.wide .column-text{
+    position: relative;
+}
+.wide .under-price{
+width: 60%;
+padding-top: 3em;
+padding-bottom: 0;
+}
+
+.wide .start{
+    padding: .5em 2em;
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+
+.main-2{
+    background-color: rgb(23, 187, 187);
+    width: 60%;
+    margin: 10em auto 3em auto;  
+    display: flex; 
+}
+
+.main-2 img{
+    width: 60%;
+}
+
+.main-2
