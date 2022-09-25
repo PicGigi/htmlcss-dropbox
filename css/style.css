@@ -341,3 +341,51 @@ padding-bottom: 0;
 .sponsor-8{
     background-color: #ffd830;
 }
+
+.bring{
+    width: 100%;
+    background-color: #b4d0e7;
+    padding: 3em;
+}
+
+.bring-text{
+    width: 60%;
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bring-text h2{
+    font-size: 2em;
+    color: #61082b;
+    width: 40%;
+}
+
+.bring-text a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: .5em 1em;
+    height: fit-content;
+}
+
+.faq{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5em 0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.faq h2{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.faq hr{
+    margin: 2em 0;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
